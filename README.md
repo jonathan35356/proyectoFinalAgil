@@ -85,7 +85,7 @@ Tareas:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Asignación de Tareas
 
-Desarrollador 1: Juan
+Desarrollador 1: Jael
 Reservas y Disponibilidad:
   Tarea 1.1: Definir los campos requeridos para la reserva.
   Tarea 1.2: Definir los criterios de aceptación para la funcionalidad de reservas.
