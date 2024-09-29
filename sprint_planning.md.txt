@@ -85,12 +85,22 @@ Tareas:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Asignación de Tareas
 
-Desarrollador 1: Juan
+Desarrollador 1: Jael
 Reservas y Disponibilidad:
   Tarea 1.1: Definir los campos requeridos para la reserva.
+  Nombre del cliente: Para identificar la reserva.
+  Número de teléfono: Para confirmar la reserva o contactar en caso de cambios.
+  Correo electrónico: Para enviar confirmaciones o información adicional.
+  Fecha de la reserva: Día en que se desea realizar la reserva.
+  Hora de la reserva: Hora específica de llegada.
+  Número de personas: Cantidad de comensales para preparar la mesa.
+  Preferencias de mesa (opcional): Si se desea una mesa específica o al aire libre.
+  Notas adicionales (opcional): Cualquier requerimiento especial, como alergias o celebraciones.
+
   Tarea 1.2: Definir los criterios de aceptación para la funcionalidad de reservas.
 Ver la Disponibilidad de Mesas:
   Tarea 2.1: Definir cómo se visualizará la disponibilidad de mesas.
+La interfaz incluye un calendario para que los usuarios seleccionen fechas, tras lo cual se muestra un horario con bloques de tiempo disponibles. Se presenta un mapa gráfico del restaurante donde las mesas disponibles se marcan en verde y las ocupadas en gris o rojo. Al seleccionar una mesa, se despliega un popup con detalles como capacidad y tipo de mesa. Se pueden aplicar filtros para facilitar la búsqueda. Además, al seleccionar una mesa, el sistema proporciona feedback visual, y se mostrarán mensajes de error si no hay disponibilidad.
   
 Desarrollador 2: María
 Ver el Menú:
