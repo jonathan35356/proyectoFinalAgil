@@ -99,7 +99,7 @@ Ver el Menú:
 Hacer Pedidos:
   Tarea 4.1: Definir los pasos necesarios para hacer un pedido.
   
-Desarrollador 3: Pedro
+Desarrollador 3: Eduardo
 Gestión de la Cola de Espera:
   Tarea 5.1: Definir cómo se mostrará la posición en la fila.
   Tarea 5.2: Establecer los criterios de aceptación para la cola de espera.
