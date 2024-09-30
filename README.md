@@ -99,10 +99,21 @@ Ver el Menú:
 Hacer Pedidos:
   Tarea 4.1: Definir los pasos necesarios para hacer un pedido.
   
-Desarrollador 3: Pedro
+Desarrollador 3: Luis Edaurdo Villalba 
 Gestión de la Cola de Espera:
   Tarea 5.1: Definir cómo se mostrará la posición en la fila.
+Interfaz de usuario: En la página de la reserva, al confirmar la inclusión en la cola de espera, se mostrará un número indicando la posición actual en la fila
+Actualización en tiempo real: Si la posición cambia, el usuario debe ver actualizaciones automáticas sin necesidad de recargar la página. Esto puede implementarse usando tecnologías como WebSockets o polling.
+Notificaciones: Se puede enviar una notificación por SMS, correo electrónico o a través de la aplicación cuando su mesa esté lista o si la posición en la fila se ha actualizado significativamente 
+Indicador de tiempo estimado: Además de la posición en la fila, se podría mostrar un tiempo estimado de espera basado en el promedio de tiempo por mesa.
+  
   Tarea 5.2: Establecer los criterios de aceptación para la cola de espera.
+Capacidad del restaurante: La cola de espera se activará solo si el restaurante ha alcanzado su capacidad máxima de reservas en un momento determinado.
+Límite de espera: Se establecerá un límite máximo de clientes en la cola de espera. Si se excede ese límite, los usuarios podrían recibir un mensaje informándoles que no es posible hacer más reservas en ese momento.
+Cancelación automática: Si un cliente no llega en el tiempo estimado para ocupar su mesa, será eliminado de la cola de espera, y se notificará al siguiente cliente en la fila.
+Duración del turno: Se debe definir un tiempo máximo de espera aceptable para los clientes en cola, más allá del cual se les debe notificar la opción de cancelar o esperar más tiempo.
+Prioridad especial: Puede haber criterios especiales de prioridad para ciertos usuarios, como clientes VIP o familias con niños pequeños
+  
 Colaboración:
 Colaborar con Juan en la gestión de reservas y con María en la integración del menú y los pedidos.
 Story Points (Opcional)
